@@ -1,6 +1,9 @@
 package extractSuperclass;
 
 public class Main {
+	// Dans ce programme les classes Car et Motorcycle ont des attributs communs
+	// Il serait préférable d'avoir une super-classe pour regrouper ces 2 attributs
+	
 	public static void main(String[] args) {
         // Utilisation de la classe Car
         Car car = new Car("Toyota", 2022, 4);
